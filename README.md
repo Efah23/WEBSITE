@@ -1,1 +1,129 @@
 # WEBSITE
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Header -->
+  <header>
+    <h1>The Frosted Whisk</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#order">Order</a>
+      <a href="#shop">Shop</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Home -->
+  <section id="home" class="hero">
+    
+    <div class="hero-text">
+      <h2>Create Your Sweetest Celebration</h2>
+      <p>Custom Cakes • Cupcakes • Sweet Treats</p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>Our Gallery</h2>
+    <p>Some of our past creations for birthdays, weddings and celebrations.</p>
+    <div class="gallery">
+    
+<body>
+    <img src="cookies.jpg" alt="Cookies" width="400">
+    <img src="desserts.jpeg" alt="Desserts" width="400">
+    <img src="cake.jpg" alt="Cake" width="400">
+</body>
+    </div>
+  </section>
+
+  <!-- Order Form -->
+  <section id="order">
+    <h2>Order a Custom Cake</h2>
+    <form>
+      <label>Event Type:</label>
+      <select>
+        <option>Birthday</option>
+        <option>Wedding</option>
+        <option>Baby Shower</option>
+        <option>Other</option>
+      </select>
+      <label>Event Date:</label>
+      <input type="date">
+      <label>Number of Guests:</label>
+      <input type="number" placeholder="e.g. 30">
+      <label>Flavour Preferences:</label>
+      <input type="text" placeholder="e.g. Chocolate, Vanilla">
+      <label>Theme or Design Ideas:</label>
+      <textarea></textarea>
+      <label>Budget:</label>
+      <input type="text" placeholder="e.g. R500">
+      <button type="submit">Submit Order Request</button>
+    </form>
+  </section>
+
+  <!-- Shop -->
+  <section id="shop">
+    <h2>Sweet Treats Shop</h2>
+    <p>Available weekly – order quickly, they sell out fast!</p>
+    <div class="shop">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Cupcakes_with_sprinkles_%284172569074%29.jpg" alt="Cupcake Box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Chocolate_Chip_Cookies_-_kimberlykv.jpg" alt="Cookie Box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Cake_in_a_jar.jpg" alt="Cake Jars">
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <h2>Pricing Guide</h2>
+    <table class="pricing-table">
+      <tr>
+        <th>Item</th>
+        <th>Starting Price</th>
+      </tr>
+      <tr>
+        <td>Custom Cakes</td>
+        <td>R350</td>
+      </tr>
+      <tr>
+        <td>Gourmet Cupcakes (6-pack)</td>
+        <td>R120</td>
+      </tr>
+      <tr>
+        <td>Cookie Box</td>
+        <td>R150</td>
+      </tr>
+      <tr>
+        <td>Cake Jar Trio</td>
+        <td>R180</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p><strong>History:</strong> Established in 2021, The Frosted Whisk is a boutique home bakery in Pretoria. We specialise in custom cakes, gourmet cupcakes, and artisanal desserts, all made with love and high-quality ingredients.</p>
+    <p><strong>Mission:</strong> To create magical and delicious moments by crafting beautiful, custom desserts that taste as wonderful as they look.</p>
+    <p><strong>Vision:</strong> To be the first choice for memorable celebrations by spreading joy, one sprinkle at a time.</p>
+    <p><strong>Target Audience:</strong> Parents, couples, and individuals looking for unforgettable treats for birthdays, weddings, anniversaries, and baby showers.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: sweetdelight@frostedwhisk.co.za</p>
+    <p>Location: Pretoria, South Africa</p>
+    <p>Operating Hours: 9am – 6pm</p>
+    <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 The Frosted Whisk • All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
